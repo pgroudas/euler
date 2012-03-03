@@ -50,3 +50,6 @@ pkg
 
 # For rbenv
 .rbenv-version
+
+# Output of nohup
+nohup.out
