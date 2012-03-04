@@ -300,4 +300,78 @@ How many Sundays fell on the first of the month during the twentieth century (1 
   it 'Problem 20: The sum of the digits of 100! should be "648"', :problem_20 => true do
     pending('Not implemented yet')
   end
+
+=begin
+Let d(n) be defined as the sum of proper divisors of n (numbers less than n which divide evenly into n).
+If d(a) = b and d(b) = a, where a  b, then a and b are an amicable pair and each of a and b are called amicable numbers.
+
+For example, the proper divisors of 220 are 1, 2, 4, 5, 10, 11, 20, 22, 44, 55 and 110; therefore d(220) = 284. The proper divisors of 284 are 1, 2, 4, 71 and 142; so d(284) = 220.
+
+Evaluate the sum of all the amicable numbers under 10000.
+=end
+  it 'Problem 21: The sum of all amicable numbers under 10000 should be "31626"', :problem_21 => true do
+    pending('Not implemented yet')
+  end
+
+=begin
+Using names.txt (right click and 'Save Link/Target As...'), a 46K text file containing over five-thousand first names, begin by sorting it into alphabetical order. Then working out the alphabetical value for each name, multiply this value by its alphabetical position in the list to obtain a name score.
+
+For example, when the list is sorted into alphabetical order, COLIN, which is worth 3 + 15 + 12 + 9 + 14 = 53, is the 938th name in the list. So, COLIN would obtain a score of 938  53 = 49714.
+
+What is the total of all the name scores in the file?
+=end
+  it 'Problem 22: The total of all the name scores in "names.txt" should be "871198282"', :problem_22 => true do
+    pending('Not implemented yet')
+  end
+
+=begin
+A perfect number is a number for which the sum of its proper divisors is exactly equal to the number. For example, the sum of the proper divisors of 28 would be 1 + 2 + 4 + 7 + 14 = 28, which means that 28 is a perfect number.
+
+A number n is called deficient if the sum of its proper divisors is less than n and it is called abundant if this sum exceeds n.
+
+As 12 is the smallest abundant number, 1 + 2 + 3 + 4 + 6 = 16, the smallest number that can be written as the sum of two abundant numbers is 24. By mathematical analysis, it can be shown that all integers greater than 28123 can be written as the sum of two abundant numbers. However, this upper limit cannot be reduced any further by analysis even though it is known that the greatest number that cannot be expressed as the sum of two abundant numbers is less than this limit.
+
+Find the sum of all the positive integers which cannot be written as the sum of two abundant numbers.
+=end
+  it 'Problem 23: The sum of all the positive integers which cannot be written as the sum of two abundant numbers should be "4179871"', :problem_23 => true do
+    pending('Not implemented yet')
+  end
+
+=begin
+A permutation is an ordered arrangement of objects. For example, 3124 is one possible permutation of the digits 1, 2, 3 and 4. If all of the permutations are listed numerically or alphabetically, we call it lexicographic order. The lexicographic permutations of 0, 1 and 2 are:
+
+012   021   102   120   201   210
+
+What is the millionth lexicographic permutation of the digits 0, 1, 2, 3, 4, 5, 6, 7, 8 and 9?
+=end
+  it 'Problem 24: The millionth lexicographic permutation of the digits 0-9 should be "2783915460"', :problem_24 => true do
+    pending('Not implemented yet')
+  end
+
+=begin
+The Fibonacci sequence is defined by the recurrence relation:
+
+Fn = Fn1 + Fn2, where F1 = 1 and F2 = 1.
+Hence the first 12 terms will be:
+
+F1 = 1
+F2 = 1
+F3 = 2
+F4 = 3
+F5 = 5
+F6 = 8
+F7 = 13
+F8 = 21
+F9 = 34
+F10 = 55
+F11 = 89
+F12 = 144
+The 12th term, F12, is the first term to contain three digits.
+
+What is the first term in the Fibonacci sequence to contain 1000 digits?
+=end
+  it 'The first term in the fibonacci sequence to contain 1000 digits should be "4782"', :problem_25 => true do
+    pending('Not implemented yet')
+  end
+
 end
