@@ -1,6 +1,6 @@
 class Eratosthenes
   def sieve_up_to(n)
-    possible_primes = Array.new(n, true)
+    possible_primes = Array.new(n+1, true)
 
     (2..(n/2)).each do |outer|
       if possible_primes[outer]

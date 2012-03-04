@@ -6,6 +6,7 @@ require 'rspec'
 Dir[File.dirname(__FILE__) + '/../lib/*.rb'].each do |file| 
   require File.basename(file, File.extname(file))
 end
+require 'integer_ext'
 
 # Requires supporting files with custom matchers and macros, etc,
 # in ./support/ and its subdirectories.

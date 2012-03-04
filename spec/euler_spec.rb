@@ -18,4 +18,7 @@ describe Euler do
     Euler.problem_4.should == 906609
   end
 
+  it 'Problem 5: The smallest number that is evenly divisible by all numbers 1 to 20 should be "232792560"', :problem_5 => true do
+    Euler.problem_5.should == 232792560
+  end
 end

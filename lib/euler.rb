@@ -1,6 +1,8 @@
 require 'utils'
 require 'fibonacci'
 require 'eratosthenes'
+require 'primes'
+require 'integer_ext'
 
 module Euler
 
@@ -59,4 +61,15 @@ module Euler
     largest_palindrome
   end
 
+  def Euler.problem_5
+    max_factors = {}
+
+    (2..20).each do |number|
+      factors = Primes.factors_of(number).group_by {|i| i}
+      factors = factors.merge(factors) {|key, old_value| old_value.length}
+      max_factors.merge!(factors) {|key, old_value, new_value| [old_value, new_value].max }
+    end
+
+    max_factors.merge(max_factors) {|key, value| key**value}.values.reduce(:*)
+  end
 end
