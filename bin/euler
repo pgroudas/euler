@@ -4,6 +4,6 @@ basedir="`dirname $0`/.."
 
 pushd "$basedir" > /dev/null 2>&1
 
-./bin/rspec --format doc
+./bin/rspec ./spec/euler_spec.rb --format doc
 
 popd  > /dev/null 2>&1
