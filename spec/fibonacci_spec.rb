@@ -1,4 +1,4 @@
-require 'fibonacci'
+require 'spec_helper'
 
 describe Fibonacci do
   before(:each) do

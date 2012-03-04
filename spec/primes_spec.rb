@@ -1,4 +1,4 @@
-require 'primes'
+require 'spec_helper'
 
 describe Primes do
   specify 'Primes.factors_of(7) should be [7]' do

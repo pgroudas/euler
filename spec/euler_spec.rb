@@ -1,4 +1,4 @@
-require 'euler'
+require 'spec_helper'
 
 describe Euler do
 

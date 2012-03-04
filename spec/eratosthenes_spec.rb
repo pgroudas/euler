@@ -1,4 +1,4 @@
-require 'eratosthenes'
+require 'spec_helper'
 
 describe Eratosthenes do
 

@@ -1,4 +1,4 @@
-require 'integer_ext'
+require 'spec_helper'
 
 describe Integer do
   specify '"9009.palindrome?" should be true"' do
