@@ -44,4 +44,19 @@ module Euler
     prime_factors.reduce {|max, item| [max, item].max}
   end
 
+  def Euler.problem_4
+    largest_palindrome = 0
+
+    (100..999).each do |outer|
+      (100..999).each do |inner|
+        product = inner * outer
+        if product > largest_palindrome && product.palindrome?
+          largest_palindrome = product
+        end
+      end
+    end
+
+    largest_palindrome
+  end
+
 end
